@@ -1,0 +1,1 @@
+start /d .\SlicedUtmConnector ..\jre\bin\javaw -Dfile.encoding=UTF-8 -jar ..\SlicedUtmConnector\SlicedUtmConnector.jar start  -u https://egaisbeta.ttsystems.ru/ -l b2c7da0e-b574-4d4b-b0ea-8d7d58551f75

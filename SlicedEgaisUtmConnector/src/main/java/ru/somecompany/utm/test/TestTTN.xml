@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:Documents Version="1.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns:ns= "http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+              xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2"
+              xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2"
+              xmlns:wb= "http://fsrar.ru/WEGAIS/TTNSingle_v2">
+    <ns:Owner>
+        <ns:FSRAR_ID>020000792334</ns:FSRAR_ID>
+    </ns:Owner>
+    <ns:Document>
+        <ns:WayBill_v2>
+            <wb:Identity>0003</wb:Identity>
+            <wb:Header>
+                <wb:NUMBER>5</wb:NUMBER>
+                <wb:Date>2017-12-18</wb:Date>
+                <wb:ShippingDate>2017-12-18</wb:ShippingDate>
+                <wb:Type>WBInvoiceFromMe</wb:Type>
+                <wb:Shipper>
+                    <oref:UL>
+                        <oref:INN>6901049563</oref:INN> 
+                        <oref:KPP>695001001</oref:KPP>
+                        <oref:ClientRegId>020000792334</oref:ClientRegId>
+                        <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "БИВ"</oref:FullName>
+                        <oref:ShortName>ООО БИВ</oref:ShortName>
+                        <oref:address>
+                            <oref:Country>643</oref:Country>
+                            <oref:RegionCode>69</oref:RegionCode>
+                            <oref:description>Тверская обл, г. Тверь, проспект Чайковского, д. 9</oref:description>
+                        </oref:address>
+                    </oref:UL>
+                </wb:Shipper>
+                <wb:Consignee>
+                    <oref:UL>
+                        <oref:INN>6901049563</oref:INN>
+                        <oref:KPP>695001001</oref:KPP>
+                        <oref:ClientRegId>020000792334</oref:ClientRegId>
+                        <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "БИВ"</oref:FullName>
+                        <oref:ShortName>ООО БИВ</oref:ShortName>
+                        <oref:address>
+                            <oref:Country>643</oref:Country>
+                            <oref:RegionCode>69</oref:RegionCode>
+                            <oref:description>Тверская обл, г. Тверь, проспект Чайковского, д. 9</oref:description>
+                        </oref:address>
+                    </oref:UL>
+                </wb:Consignee>
+                <wb:Transport>
+                    <wb:TRAN_TYPE>413</wb:TRAN_TYPE>
+                    <wb:TRAN_COMPANY>ООО"Азурит"</wb:TRAN_COMPANY>
+                    <wb:TRAN_CAR>Рено</wb:TRAN_CAR>
+                    <wb:TRAN_TRAILER></wb:TRAN_TRAILER>
+                    <wb:TRAN_CUSTOMER>ЗАО"Союз-Виктан"</wb:TRAN_CUSTOMER>
+                    <wb:TRAN_DRIVER>Шайцанс А.В.</wb:TRAN_DRIVER>
+                    <wb:TRAN_LOADPOINT>П.Горбово</wb:TRAN_LOADPOINT>
+                    <wb:TRAN_UNLOADPOINT>Лыткарино</wb:TRAN_UNLOADPOINT>
+                    <wb:TRAN_REDIRECT></wb:TRAN_REDIRECT>
+                    <wb:TRAN_FORWARDER>Шайцанс А.В.</wb:TRAN_FORWARDER>
+                </wb:Transport>
+                <wb:Base>основание - текст</wb:Base>
+                <wb:Note>тестовая накладная 1</wb:Note>
+            </wb:Header>
+            <wb:Content>                
+                <wb:Position>
+                    <wb:Identity>1</wb:Identity>
+                    <wb:Product>
+                        <pref:FullName>Пиво светлое (пастеризованное) "Балтика классическое" №3 кег,Ростов</pref:FullName>
+                        <pref:AlcCode>0036195000001238577</pref:AlcCode>
+                        <pref:UnitType>Unpacked</pref:UnitType>
+                        <pref:AlcVolume>4.800</pref:AlcVolume>
+                        <pref:ProductVCode>500</pref:ProductVCode>
+                        <pref:Producer>
+                            <oref:UL>
+                                <oref:ClientRegId>030000000040</oref:ClientRegId>
+                                <oref:INN>7802849641</oref:INN>
+                                <oref:KPP>616843001</oref:KPP>
+                                <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:FullName>
+                                <oref:ShortName>ООО "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:ShortName>
+                                <oref:address>
+                                    <oref:Country>643</oref:Country>
+                                    <oref:RegionCode>61</oref:RegionCode>
+                                    <oref:description>643,344090,61,,РОСТОВ-НА-ДОНУ Г,,ДОВАТОРА УЛ,146А,,</oref:description>
+                                </oref:address>
+                            </oref:UL> 
+                        </pref:Producer>
+                    </wb:Product>
+                    <wb:Quantity>3</wb:Quantity>
+                    <wb:Price>123.00</wb:Price>
+                    <wb:Pack_ID>Паллета</wb:Pack_ID>
+                    <wb:Party>партия № 7</wb:Party>
+                    <wb:InformF1>
+                        <pref:RegId>FA-000000005349030</pref:RegId>
+                    </wb:InformF1>
+                    <wb:InformF2>
+                        <pref:InformF2Item>
+                            <pref:F2RegId>FB-000000005664278</pref:F2RegId>
+                        </pref:InformF2Item>
+                    </wb:InformF2>
+                </wb:Position>
+            </wb:Content>
+        </ns:WayBill_v2>
+    </ns:Document>
+</ns:Documents>

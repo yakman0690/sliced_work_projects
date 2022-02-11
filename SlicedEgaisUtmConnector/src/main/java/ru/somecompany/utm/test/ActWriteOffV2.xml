@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns43:Documents Version="1.0" 
+                xmlns:ns18="http://fsrar.ru/WEGAIS/ProductRef_v2"
+                xmlns:ns43="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+                xmlns:ns47="http://fsrar.ru/WEGAIS/ActWriteOff_v2" 
+>
+    <ns43:Owner>
+        <ns43:FSRAR_ID>020000792334</ns43:FSRAR_ID>
+    </ns43:Owner>
+    <ns43:Document>
+        <ns43:ActWriteOff_v2>
+            <ns47:Identity>DFJKGH</ns47:Identity>
+            <ns47:Header>
+                <ns47:ActNumber>36</ns47:ActNumber>
+                <ns47:ActDate>2017-12-19</ns47:ActDate>
+                <ns47:TypeWriteOff>Реализация</ns47:TypeWriteOff>
+            </ns47:Header>
+            <ns47:Content>
+                <ns47:Position>
+                    <ns47:Identity>1</ns47:Identity>
+                    <ns47:Quantity>1</ns47:Quantity>
+                    <ns47:InformF1F2>
+                        <ns47:InformF2>
+                            <ns18:F2RegId>FB-000001144213016</ns18:F2RegId>
+                        </ns47:InformF2>
+                    </ns47:InformF1F2>
+                </ns47:Position>
+                <ns47:Position>
+                    <ns47:Identity>2</ns47:Identity>
+                    <ns47:Quantity>1</ns47:Quantity>
+                    <ns47:InformF1F2>
+                        <ns47:InformF2>
+                            <ns18:F2RegId>FB-000001197629580</ns18:F2RegId>
+                        </ns47:InformF2>
+                    </ns47:InformF1F2>
+                </ns47:Position>
+            </ns47:Content>
+        </ns43:ActWriteOff_v2>
+    </ns43:Document>
+</ns43:Documents>

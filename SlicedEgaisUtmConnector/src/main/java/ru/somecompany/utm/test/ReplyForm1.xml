@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns:Documents xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01">
+    <ns:Owner>
+        <ns:FSRAR_ID>020000792334</ns:FSRAR_ID>
+    </ns:Owner>
+    <ns:Document>
+        <ns:WayBillInformF1RegType xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2" xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2" xmlns:rfa="http://fsrar.ru/WEGAIS/ReplyForm1">
+            <rfa:InformF1RegId>FA-000000005349030</rfa:InformF1RegId>
+            <rfa:OriginalClient>
+                <oref:UL>
+                    <oref:ClientRegId>030000000040</oref:ClientRegId>
+                    <oref:INN>7802849641</oref:INN>
+                    <oref:KPP>616843001</oref:KPP>
+                    <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:FullName>
+                    <oref:ShortName>ООО "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:ShortName>
+                    <oref:address>
+                        <oref:Country>643</oref:Country>
+                        <oref:RegionCode>61</oref:RegionCode>
+                        <oref:description>344090, РОССИЯ, , , Г РОСТОВ-НА-ДОНУ, , УЛ ДОВАТОРА, 146А, ,</oref:description>
+                    </oref:address>
+                </oref:UL> 
+            </rfa:OriginalClient>
+            <rfa:OriginalDocNumber>О_382703</rfa:OriginalDocNumber>
+            <rfa:OriginalDocDate>2017-09-16</rfa:OriginalDocDate>
+            <rfa:Product>
+                <pref:FullName>Пиво светлое (пастеризованное) "Балтика классическое" №3 кег,Ростов</pref:FullName>
+                <pref:AlcCode>0036195000001238577</pref:AlcCode>
+                <pref:UnitType>Unpacked</pref:UnitType>
+                <pref:AlcVolume>4.800</pref:AlcVolume>
+                <pref:ProductVCode>500</pref:ProductVCode>
+                <pref:Producer>
+                    <oref:UL>
+                        <oref:ClientRegId>030000000040</oref:ClientRegId>
+                        <oref:INN>7802849641</oref:INN>
+                        <oref:KPP>616843001</oref:KPP>
+                        <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:FullName>
+                        <oref:ShortName>ООО "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:ShortName>
+                        <oref:address>
+                            <oref:Country>643</oref:Country>
+                            <oref:RegionCode>61</oref:RegionCode>
+                            <oref:description>344090, РОССИЯ, , , Г РОСТОВ-НА-ДОНУ, , УЛ ДОВАТОРА, 146А, ,</oref:description>
+                        </oref:address>
+                    </oref:UL>
+                </pref:Producer>
+            </rfa:Product>
+            <rfa:BottlingDate>2017-09-16</rfa:BottlingDate>
+            <rfa:Quantity>2000.0000</rfa:Quantity>
+            <rfa:EGAISNumber>Создана по форме А для немаркируемой продукции</rfa:EGAISNumber>
+            <rfa:EGAISDate>2017-09-16</rfa:EGAISDate>
+        </ns:WayBillInformF1RegType>
+    </ns:Document>
+</ns:Documents>

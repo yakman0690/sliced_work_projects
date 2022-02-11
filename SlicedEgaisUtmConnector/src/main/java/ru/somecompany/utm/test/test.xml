@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns43:Documents Version="1.0" xmlns:ns2="http://fsrar.ru/WEGAIS/TTNSingle" xmlns:ns60="http://fsrar.ru/WEGAIS/RequestRepealWB" xmlns:ns4="http://fsrar.ru/WEGAIS/ProductRef" xmlns:ns3="http://fsrar.ru/WEGAIS/ClientRef" xmlns:ns6="http://fsrar.ru/WEGAIS/ActTTNSingle" xmlns:ns53="http://fsrar.ru/WEGAIS/Asiiu" xmlns:ns5="http://fsrar.ru/WEGAIS/Ticket" xmlns:ns52="http://fsrar.ru/WEGAIS/ReplyRestsShop_v2" xmlns:ns8="http://fsrar.ru/WEGAIS/TTNInformBReg" xmlns:ns51="http://fsrar.ru/WEGAIS/ReplyNoAnswerTTN" xmlns:ns7="http://fsrar.ru/WEGAIS/ConfirmTicket" xmlns:ns50="http://fsrar.ru/WEGAIS/RepInformF1Reg" xmlns:ns13="http://fsrar.ru/WEGAIS/QueryParameters" xmlns:ns57="http://fsrar.ru/WEGAIS/InfoVersionTTN" xmlns:ns9="http://fsrar.ru/WEGAIS/ActInventorySingle" xmlns:ns12="http://fsrar.ru/WEGAIS/ActInventoryInformBReg" xmlns:ns56="http://fsrar.ru/WEGAIS/ActWriteOffShop_v2" xmlns:ns11="http://fsrar.ru/WEGAIS/ActChargeOn" xmlns:ns55="http://fsrar.ru/WEGAIS/ActChargeOnShop_v2" xmlns:ns10="http://fsrar.ru/WEGAIS/ActInventoryABInfo" xmlns:ns54="http://fsrar.ru/WEGAIS/AsiiuTime" xmlns:ns17="http://fsrar.ru/WEGAIS/ClientRef_v2" xmlns:ns16="http://fsrar.ru/WEGAIS/RepProducedProduct" xmlns:ns15="http://fsrar.ru/WEGAIS/ActWriteOff" xmlns:ns59="http://fsrar.ru/WEGAIS/ReplyBarcode" xmlns:ns14="http://fsrar.ru/WEGAIS/QueryFormAB" xmlns:ns58="http://fsrar.ru/WEGAIS/QueryBarcode" xmlns:ns19="http://fsrar.ru/WEGAIS/RepImportedProduct" xmlns:ns18="http://fsrar.ru/WEGAIS/ProductRef_v2" xmlns:ns42="http://fsrar.ru/WEGAIS/ActInventoryF1F2Info" xmlns:ns41="http://fsrar.ru/WEGAIS/ActChargeOn_v2" xmlns:ns40="http://fsrar.ru/WEGAIS/ActTTNSingle_v2" xmlns:ns46="http://fsrar.ru/WEGAIS/QueryFormF1F2" xmlns:ns45="http://fsrar.ru/WEGAIS/TTNInformF2Reg" xmlns:ns44="http://fsrar.ru/WEGAIS/ActInventoryInformF2Reg" xmlns:ns43="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:ns49="http://fsrar.ru/WEGAIS/TransferToShop" xmlns:ns48="http://fsrar.ru/WEGAIS/TransferFromShop" xmlns:ns47="http://fsrar.ru/WEGAIS/ActWriteOff_v2" xmlns:ns81="http://fsrar.ru/WEGAIS/TTNHistoryF2Reg" xmlns:ns80="http://fsrar.ru/WEGAIS/ReplyParentHistForm2" xmlns:ns31="http://fsrar.ru/WEGAIS/ReplySSP_v2" xmlns:ns75="http://fsrar.ru/WEGAIS/RepProducedProduct_v3" xmlns:ns30="http://fsrar.ru/WEGAIS/QueryRejectRepImported" xmlns:ns74="http://fsrar.ru/WEGAIS/ActTTNSingle_v3" xmlns:ns73="http://fsrar.ru/WEGAIS/ActWriteOff_v3" xmlns:ns72="http://fsrar.ru/WEGAIS/CommonV3" xmlns:ns35="http://fsrar.ru/WEGAIS/ReplyRests_v2" xmlns:ns79="http://fsrar.ru/WEGAIS/ActUnFixBarCode" xmlns:ns34="http://fsrar.ru/WEGAIS/ReplyAP_v2" xmlns:ns78="http://fsrar.ru/WEGAIS/ActFixBarCode" xmlns:ns33="http://fsrar.ru/WEGAIS/ReplyClient_v2" xmlns:ns77="http://fsrar.ru/WEGAIS/ReplyRestBCode" xmlns:ns32="http://fsrar.ru/WEGAIS/ReplySpirit_v2" xmlns:ns76="http://fsrar.ru/WEGAIS/RepImportedProduct_v3" xmlns:ns39="http://fsrar.ru/WEGAIS/TTNSingle_v2" xmlns:ns38="http://fsrar.ru/WEGAIS/ReplyHistForm2" xmlns:ns37="http://fsrar.ru/WEGAIS/ReplyForm2" xmlns:ns36="http://fsrar.ru/WEGAIS/ReplyForm1" xmlns:ns71="http://fsrar.ru/WEGAIS/TTNSingle_v3" xmlns:ns70="http://fsrar.ru/WEGAIS/AscpNavigation" xmlns:ns20="http://fsrar.ru/WEGAIS/ReplySSP" xmlns:ns64="http://fsrar.ru/WEGAIS/ReplyRests_Mini" xmlns:ns63="http://fsrar.ru/WEGAIS/RequestRepealAWO" xmlns:ns62="http://fsrar.ru/WEGAIS/RequestRepealACO" xmlns:ns61="http://fsrar.ru/WEGAIS/ConfirmRepealWB" xmlns:ns24="http://fsrar.ru/WEGAIS/ReplyRests" xmlns:ns68="http://fsrar.ru/WEGAIS/ReplyHistoryShop" xmlns:ns23="http://fsrar.ru/WEGAIS/ReplyAP" xmlns:ns67="http://fsrar.ru/WEGAIS/RequestAddProducts" xmlns:ns22="http://fsrar.ru/WEGAIS/ReplyClient" xmlns:ns66="http://fsrar.ru/WEGAIS/RequestAddFProducer" xmlns:ns21="http://fsrar.ru/WEGAIS/ReplySpirit" xmlns:ns65="http://fsrar.ru/WEGAIS/ReplyRestsShop_Mini" xmlns:ns28="http://fsrar.ru/WEGAIS/ReplyClientVersion" xmlns:ns27="http://fsrar.ru/WEGAIS/ReplyHistFormB" xmlns:ns26="http://fsrar.ru/WEGAIS/ReplyFormB" xmlns:ns25="http://fsrar.ru/WEGAIS/ReplyFormA" xmlns:ns69="http://fsrar.ru/WEGAIS/ReplyWriteOffCheque" xmlns:ns29="http://fsrar.ru/WEGAIS/QueryRejectRepProduced">
+    <ns43:Owner>
+        <ns43:FSRAR_ID>qwerty</ns43:FSRAR_ID>
+    </ns43:Owner>
+    <ns43:Document>
+        <ns43:ActWriteOff_v2>
+            <ns47:Identity>d946bbe9-63ec-4a43-83c0-c76eeed6916a</ns47:Identity>
+            <ns47:Header>
+                <ns47:ActNumber>38</ns47:ActNumber>
+                <ns47:ActDate>2017-12-20Z</ns47:ActDate>
+                <ns47:TypeWriteOff>Реализация</ns47:TypeWriteOff>
+            </ns47:Header>
+            <ns47:Content>
+                <ns47:Position>
+                    <ns47:Identity>9eb3cb9b-3bce-4895-8f27-f463095d98b4</ns47:Identity>
+                    <ns47:Quantity>1</ns47:Quantity>
+                    <ns47:InformF1F2>
+                        <ns47:InformF2>
+                            <ns18:F2RegId>FB-000000602380234</ns18:F2RegId>
+                        </ns47:InformF2>
+                    </ns47:InformF1F2>
+                </ns47:Position>
+            </ns47:Content>
+        </ns43:ActWriteOff_v2>
+    </ns43:Document>
+</ns43:Documents>

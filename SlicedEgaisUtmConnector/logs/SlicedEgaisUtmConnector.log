@@ -1,0 +1,52 @@
+2022-02-11 16:37:35 INFO  Startup:56 - command is start
+2022-02-11 16:37:35 INFO  MockAuthServiceImpl:32 - MockAuthService:: Reading user credentials: b2c7da0e-b574-4d4b-b0ea-8d7d58551f75 and connecting to server https://egaisbeta.ttsystems.ru/
+2022-02-11 16:37:35 INFO  Startup:220 - Egais UTM connector startup: try to connect
+2022-02-11 16:37:35 INFO  Startup:224 - calling auth from startup
+2022-02-11 16:37:35 INFO  MockAuthServiceImpl:37 - MockAuthService:: simulating simple form login to server with the help of HttpEntity. URL: server_url/login 
+2022-02-11 16:37:35 INFO  MockAuthServiceImpl:38 - MockAuthService:: starting heartbeat to server
+2022-02-11 16:37:36 INFO  EgaisServerServiceImpl:355 - somecompany Egais Server Service starts: loading requests from backup
+2022-02-11 16:37:36 INFO  EgaisServerServiceImpl:333 - Prepared for UTM documents :
+2022-02-11 16:37:36 INFO  EgaisServerServiceImpl:335 - Prepared for EgaisServer responces :
+2022-02-11 16:37:36 ERROR EgaisServerServiceImpl:349 - No content to map due to end-of-input
+ at [Source: ; line: 1, column: 1]
+com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
+ at [Source: ; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:148)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3781)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3721)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2745)
+	at ru.somecompany.service.impl.EgaisServerServiceImpl.readfromfile(EgaisServerServiceImpl.java:337)
+	at ru.somecompany.service.impl.EgaisServerServiceImpl.init(EgaisServerServiceImpl.java:356)
+	at ru.somecompany.startup.Startup.startup(Startup.java:232)
+	at ru.somecompany.startup.Startup.main(Startup.java:69)
+2022-02-11 16:37:36 INFO  UtmServiceImpl:147 - try to get fsrarid
+2022-02-11 16:37:40 ERROR UtmServiceImpl:165 - Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:138)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:357)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:218)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:194)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:85)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at ru.somecompany.service.impl.UtmServiceImpl.getFSRARId(UtmServiceImpl.java:152)
+	at ru.somecompany.startup.Startup.startup(Startup.java:238)
+	at ru.somecompany.startup.Startup.main(Startup.java:69)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:118)
+	... 13 more
+2022-02-11 16:37:40 INFO  AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b86de0d: startup date [Fri Feb 11 16:37:40 MSK 2022]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@51521cc1
+2022-02-11 16:37:40 INFO  DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647

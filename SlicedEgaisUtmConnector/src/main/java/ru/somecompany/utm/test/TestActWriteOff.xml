@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns:Documents Version="1.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns:ns= "http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+              xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2"
+              xmlns:awr="http://fsrar.ru/WEGAIS/ActWriteOff_v2"
+              xmlns:ce="http://fsrar.ru/WEGAIS/CommonEnum"
+> 
+    <ns:Owner>
+                <ns:FSRAR_ID>131546543641</ns:FSRAR_ID>
+    </ns:Owner>
+    <ns:Document>
+        <ns:ActWriteOff_v2>
+            <awr:Identity>7</awr:Identity>
+            <awr:Header>
+                <awr:ActNumber>36</awr:ActNumber>
+                <awr:ActDate>2017-12-19</awr:ActDate>
+                <awr:TypeWriteOff>Реализация</awr:TypeWriteOff>
+            </awr:Header>
+            <awr:Content>
+                <awr:Position>
+                    <awr:Identity>1</awr:Identity>
+                    <awr:Quantity>1</awr:Quantity>
+                    <awr:InformF1F2>
+                        <awr:InformF2>
+                            <pref:F2RegId>FB-000001144213016</pref:F2RegId>
+                        </awr:InformF2>
+                    </awr:InformF1F2>
+                </awr:Position>
+                <awr:Position>
+                    <awr:Identity>2</awr:Identity>
+                    <awr:Quantity>1</awr:Quantity>
+                    <awr:InformF1F2>
+                        <awr:InformF2>
+                            <pref:F2RegId>FB-000001197629580</pref:F2RegId>
+                        </awr:InformF2>
+                    </awr:InformF1F2>
+                </awr:Position>
+            </awr:Content>
+        </ns:ActWriteOff_v2>
+    </ns:Document>
+</ns:Documents>

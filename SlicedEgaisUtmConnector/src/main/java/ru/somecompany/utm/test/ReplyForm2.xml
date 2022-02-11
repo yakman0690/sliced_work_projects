@@ -1,0 +1,62 @@
+<ns:Documents>
+    <ns:Owner>
+        <ns:FSRAR_ID>020000792334</ns:FSRAR_ID>
+    </ns:Owner>
+    <ns:Document>
+        <ns:WayBillInformF2RegType>
+            <rfb:InformF2RegId>FB-000000005664278</rfb:InformF2RegId>
+            <rfb:TTNNumber>20</rfb:TTNNumber>
+            <rfb:TTNDate>2017-12-18</rfb:TTNDate>
+            <rfb:Shipper>
+                <oref:UL>
+                        <oref:INN>6901049563</oref:INN>
+                        <oref:KPP>695001001</oref:KPP>
+                        <oref:ClientRegId>020000792334</oref:ClientRegId>
+                        <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "БИВ"</oref:FullName>
+                        <oref:ShortName>ООО БИВ</oref:ShortName>
+                        <oref:address>
+                            <oref:Country>643</oref:Country>
+                            <oref:RegionCode>69</oref:RegionCode>
+                            <oref:description>Тверская обл, г. Тверь, проспект Чайковского, д. 9</oref:description>
+                        </oref:address>
+                    </oref:UL>
+            </rfb:Shipper>
+            <rfb:Consignee>
+                <oref:UL>
+                        <oref:INN>6901049563</oref:INN>
+                        <oref:KPP>695001001</oref:KPP>
+                        <oref:ClientRegId>020000792334</oref:ClientRegId>
+                        <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "БИВ"</oref:FullName>
+                        <oref:ShortName>ООО БИВ</oref:ShortName>
+                        <oref:address>
+                            <oref:Country>643</oref:Country>
+                            <oref:RegionCode>69</oref:RegionCode>
+                            <oref:description>Тверская обл, г. Тверь, проспект Чайковского, д. 9</oref:description>
+                        </oref:address>
+                    </oref:UL>
+            </rfb:Consignee>
+            <rfb:Product>
+                <pref:FullName>Пиво светлое (пастеризованное) "Балтика классическое" №3 кег,Ростов</pref:FullName>
+                <pref:AlcCode>0036195000001238577</pref:AlcCode>
+                <pref:UnitType>Unpacked</pref:UnitType>
+                <pref:AlcVolume>4.800</pref:AlcVolume>
+                <pref:ProductVCode>500</pref:ProductVCode>
+                <pref:Producer>
+                    <oref:UL>
+                        <oref:ClientRegId>030000000040</oref:ClientRegId>
+                        <oref:INN>7802849641</oref:INN>
+                        <oref:KPP>616843001</oref:KPP>
+                        <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:FullName>
+                        <oref:ShortName>ООО "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:ShortName>
+                        <oref:address>
+                            <oref:Country>643</oref:Country>
+                            <oref:RegionCode>61</oref:RegionCode>
+                            <oref:description>643,344090,61,,РОСТОВ-НА-ДОНУ Г,,ДОВАТОРА УЛ,146А,,</oref:description>
+                        </oref:address>
+                    </oref:UL>
+                </pref:Producer>
+            </rfb:Product>
+            <rfb:Quantity>200.0000</rfb:Quantity>
+        </ns:WayBillInformF2RegType>
+    </ns:Document>  
+</ns:Documents>
