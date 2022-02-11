@@ -6,8 +6,8 @@
 ## DesktopAppsCommons и EgaisDomain
 Вспомогательные проекты, в которых расположены основные объекты для работы.
 
-##SlicedEgaisUtmConnector
+## SlicedEgaisUtmConnector
 Непосредственно программа-коннектор.
 
-##SlicedEgaisUtmAppManager
+## SlicedEgaisUtmAppManager
 Программа для обновления и запуска коннектора. При сборке упаковывается в exe для самостоятельной установки конечным пользователем.
