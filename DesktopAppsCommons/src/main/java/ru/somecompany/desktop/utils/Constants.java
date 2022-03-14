@@ -16,6 +16,7 @@ public class Constants {
     
     public static final Integer EUC_UPDATER_PORT = 64010;
     public static final Integer SH_UPDATER_PORT = 64011;
+    public static final Integer TEST_CONSTANT = 64011;
     
     
     
